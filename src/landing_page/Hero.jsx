@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import Services from "./Services";
+import About from "./About";
 export default function Hero(){
 
 const fadeUp = {
@@ -33,52 +35,17 @@ const fadeUp = {
         {/* Right Text */}
         <div className="md:col-span-1 mt-4 md:mt-0 flex items-center justify-center">
           <div className="text-center md:text-left">
-            <h2 className="text-xl font-bold">Welcome to Our Site</h2>
-            <p className="text-sm mt-2 text-gray-600">Inspiring digital experiences.</p>
+            <h2 className="text-xl font-bold">Welcome to PreeSkills — the future of collaborative learning.</h2>
+            <p className="text-sm mt-2 text-gray-600">Swap your skills, share your knowledge, and unlock a world of learning — one connection at a time.</p>
           </div>
         </div>
       </motion.div>
 
-      {/* Second Row */}
-      <motion.div
-        className="grid grid-cols-1 md:grid-cols-2 bg-white rounded shadow p-4"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeUp}
-        custom={2}
-      >
-        <div className="flex items-center justify-center border-b md:border-b-0 md:border-r border-gray-200 p-4">
-          <div className="text-center">
-            <h3 className="text-lg font-semibold">Left Section</h3>
-            <p className="text-sm text-gray-600">Responsive and elegant layout.</p>
-          </div>
-        </div>
-        <div className="flex items-center justify-center p-4">
-          <div className="text-center">
-            <h3 className="text-lg font-semibold">Right Section</h3>
-            <p className="text-sm text-gray-600">Optimized for all screen sizes.</p>
-          </div>
-        </div>
-      </motion.div>
+    <Services></Services>
+<About></About>
+     
 
-      {/* Third Row */}
-      <motion.div
-        className="bg-white rounded shadow p-6 flex flex-col items-center justify-center text-center"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={fadeUp}
-        custom={3}
-      >
-        <h3 className="text-xl font-bold">Join Us Today!</h3>
-        <p className="text-gray-600 mt-2 max-w-xl">
-          Start building your journey with us. We're here to help you grow.
-        </p>
-        <button className="mt-4 bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
-          Get Started
-        </button>
-      </motion.div>
+    
     </div>
 
         </>

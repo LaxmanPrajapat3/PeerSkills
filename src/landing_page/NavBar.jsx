@@ -20,8 +20,8 @@ export default function NavBar(){
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
             <a href="#" className="text-gray-600 hover:text-blue-600">Home</a>
-            <a href="#" className="text-gray-600 hover:text-blue-600">About</a>
             <a href="#" className="text-gray-600 hover:text-blue-600">Services</a>
+            <a href="#" className="text-gray-600 hover:text-blue-600">About</a>
             <a href="#" className="text-gray-600 hover:text-blue-600">Contact</a>
 
             {/* Auth Buttons */}
@@ -47,8 +47,8 @@ export default function NavBar(){
       {isOpen && (
         <div className="md:hidden px-4 pb-4 space-y-2 bg-white shadow-md">
           <a href="#" className="block text-gray-600 hover:text-blue-600">Home</a>
-          <a href="#" className="block text-gray-600 hover:text-blue-600">About</a>
           <a href="#" className="block text-gray-600 hover:text-blue-600">Services</a>
+          <a href="#" className="block text-gray-600 hover:text-blue-600">About</a>
           <a href="#" className="block text-gray-600 hover:text-blue-600">Contact</a>
           <a href="#" className="block text-gray-600 hover:text-blue-600">Login</a>
           <a
