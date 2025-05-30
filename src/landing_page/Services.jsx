@@ -24,7 +24,7 @@ export default function Services(){
       >
         <h3 className="text-xl font-bold">Services</h3>
         <CardSecation></CardSecation>
-        <CardSecation></CardSecation>
+        {/* <CardSecation></CardSecation> */}
         {/* <CardSecation></CardSecation> */}
 
           

@@ -32,7 +32,7 @@ Our platform is built to connect people who are passionate about learning and te
 
 In a world that moves fast, we slow down to make learning personal again. We’re not just building a platform — we’re building a community where skills are the new currency.</p>
 
-<h3 className="text-lg font-semibold">
+<h3 className="text-lg font-semibold mt-5">
     🧩 What Makes Us Different
     
     </h3>
@@ -61,7 +61,7 @@ Grow Your Network: Connect with learners and teachers from around the world.
 Chat in Real-Time: Communicate instantly with other users through our secure, built-in messaging system. Schedule sessions, ask questions, or simply get to know your learning partner — all in one place.
 </p>
 
-<h3 className="text-lg font-semibold">🚀 Our Vision for the Future</h3>
+<h3 className="text-lg font-semibold mt-5">🚀 Our Vision for the Future</h3>
 <p className="text-sm text-gray-600">We envision a global skill-sharing movement where everyone contributes, everyone benefits, and education becomes more human, connected, and community-driven.</p>
           </div>
         </div>

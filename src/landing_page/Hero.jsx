@@ -16,7 +16,7 @@ const fadeUp = {
  <div className="w-full min-h-screen grid grid-rows-3 gap-6 bg-gray-100 p-4 sm:p-6">
       {/* First Row */}
       <motion.div
-        className="grid grid-cols-1 md:grid-cols-4 bg-white rounded shadow p-4"
+        className="grid grid-cols-1 md:grid-cols-4 bg-white rounded shadow p-4 "
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
@@ -24,7 +24,7 @@ const fadeUp = {
         custom={1}
       >
         {/* Left Image */}
-        <div className="md:col-span-3 flex items-center justify-center">
+        <div className="md:col-span-3 flex items-center justify-center ">
           <img
             src="../../src/assets/home_page_heroSecation_img.png"
             alt="Hero"
